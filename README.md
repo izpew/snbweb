@@ -1,2 +1,2 @@
-# psychic-rotary-phone
+# SNBweb
 Website development (including browser games)
