@@ -1,0 +1,38 @@
+feature_id,parent_id,feature_name,area,description,actor,trigger,priority
+title,-,타이틀 로고,header,누르면 초기 진입 페이지(대문)으로 이동한다.,회원,로고 클릭,P0
+announcement,-,한줄 전광판,header,운영 관련 중요 공지와 업데이트 안내를 표시한다.,회원,화면 진입,P0
+layout,-,레이아웃 변경 메뉴,header,테마 및 레이아웃 프리셋 선택 창을 드롭다운한다.,회원,레이아웃 변경 클릭,P1
+theme,layout,테마 선택,header,사이트 테마를 선택할 수 있다.,회원,테마 선택,P1
+preset,layout,레이아웃 프리셋 선택,header,레이아웃 프리셋을 선택할 수 있다.,회원,프리셋 선택,P1
+notification,-,알림함,header,"시스템 알림, 임무나 레이드 종료, 메신저 등을 안내한다.",회원,알림 클릭,P1
+mailbox,-,우편함,header,"서버 보상, 유저 간 의뢰 요청, 선물 등을 다룬다.",회원,우편 클릭,P1
+settings,-,설정 메뉴,header,계정 및 이용 환경 설정에 접근한다.,회원,설정 클릭,P0
+configuration,settings,환경 설정,header,사운드 레벨과 폰트 크기 등 시인성을 설정한다.,회원,환경 설정 선택,P0
+myinfo,settings,정보 수정,header,계정 정보를 수정한다.,회원,정보 수정 선택,P0
+logout,settings,로그아웃,header,현재 계정에서 로그아웃한다.,회원,로그아웃 선택,P0
+admin,settings,관리자,header,관리자 도구 페이지로 이동한다.,관리자,관리자 선택,P1
+home,-,홈,main,"공지사항, 업데이트, 가이드, 문의사항 등 편의 공간.",회원,홈 메뉴 선택,P0
+notice,home,공지사항,main,운영 공지사항을 제공한다.,회원,공지사항 선택,P0
+update,home,업데이트 내역,main,업데이트 내용을 제공한다.,회원,업데이트 안내 선택,P1
+guide,home,가이드,main,이용 가이드를 제공한다.,회원,가이드 선택,P1
+ask,home,문의사항,main,운영자와 1:1 문의를 주고받는 편의 기능.,회원,문의사항 선택,P1
+lounge,-,로비,main,"유저 프로필, 캐릭터 목록, 게시판 기능 등 개인 공간.",회원,로비 메뉴 선택,P0
+profile,lounge,유저 프로필,main,유저 프로필 기능을 제공한다.,회원,유저 프로필 선택,P0
+charaters,lounge,캐릭터 목록,main,캐릭터 목록 기능을 제공한다.,회원,캐릭터 목록 선택,P0
+board,lounge,개인 게시판,main,개인 게시판 기능을 제공한다.,회원,개인 게시판 선택,P1
+collection ,-,수집,main,"업적 목록과 각종 도감, 인벤토리 등 수집 요소를 모은다.",회원,수집 메뉴 선택,P1
+achievement,collection ,업적 목록,main,업적 목록 기능을 제공한다.,회원,업적 목록 선택,P1
+index ,collection ,각종 도감,main,각종 도감 기능을 제공한다.,회원,각종 도감 선택,P1
+inventory,collection ,인벤토리,main,인벤토리 기능을 제공한다.,회원,인벤토리 선택,P1
+market,-,상점,main,상점 등으로 메인 메뉴가 확장될 수 있다.,회원,미정,보류
+news,-,뉴스,main,뉴스 등으로 메인 메뉴가 확장될 수 있다.,회원,미정,보류
+wiki,-,위키,main,위키 등으로 메인 메뉴가 확장될 수 있다.,회원,미정,보류
+episode-list,-,에피소드 목록,side,에피소드 목록을 제공한다.,회원,에피소드 목록 메뉴 선택,P1
+episode-room,-,에피소드 진행,side,에피소드를 진행하는 화면을 제공한다.,회원,에피소드 진행 메뉴 선택,P1
+episode-log,-,에피소드 로그,side,에피소드 로그를 제공한다.,회원,에피소드 로그 메뉴 선택,P1
+episode-write,-,에피소드 작성,side,에피소드를 작성하는 기능을 제공한다.,회원,에피소드 작성 메뉴 선택,P1
+quest,-,퀘스트,card,퀘스트 메뉴를 CARD 영역에서 제공한다.,회원,퀘스트 메뉴 선택,P2
+events,-,이벤트,card,이벤트 메뉴를 CARD 영역에서 제공한다.,회원,이벤트 메뉴 선택,P2
+workshop,-,제작소,card,제작소 메뉴를 CARD 영역에서 제공한다.,회원,제작소 메뉴 선택,P2
+messenger,-,메신저,card,메신저 메뉴를 CARD 영역에서 제공한다.,회원,메신저 메뉴 선택,P2
+calendar,-,캘린더,card,캘린더 메뉴를 CARD 영역에서 제공한다.,회원,캘린더 메뉴 선택,P2
